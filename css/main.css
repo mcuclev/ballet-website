@@ -1,0 +1,225 @@
+@font-face {
+    font-family: 'Cormorant Bold';
+    src: url('../fonts/Cormorant-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Fox Grotesque Pro';
+    src: url('../fonts/Fox Grotesque Pro.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Fox Grotesque Pro Light';
+    src: url('../fonts/Fox\ Grotesque\ Pro\ Light.otf') format('opentype');
+}
+
+body {
+    background-image: url(../img/bg.jpg);
+    background-attachment: fixed;
+    /* background-position: center; */
+    background-size: cover;
+    /* position: relative; */
+}
+
+p {
+    color: white;
+}
+
+.icons {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.icons_item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.icons_item a.social {
+    transition: all 0.3s ease;
+}
+
+.icons-item a.social:hover {
+    text-decoration: none;
+    color: #ffa000;
+}
+
+p.logotitle {
+    font-family: 'Fox Grotesque Pro Light';
+    font-size: 25px;
+    /* padding-left: 65px; */
+}
+
+.menu {
+    margin-left: 110px;
+}
+
+.menu-item {
+    letter-spacing: 2px;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+
+.menu-item a.menu-string{
+    transition: all 0.3s ease;
+}
+
+.menu-item a.menu-string:hover {
+    color: #ffa000;
+    text-decoration: none;
+}
+
+
+.list {
+    padding-top: 11px;
+}
+
+.but {
+    padding-top: 5px;
+}
+
+ul, li {
+    font-family: 'Fox Grotesque Pro';
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+li a{
+    color: white;
+}
+
+.navigation {
+    vertical-align: middle;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    background-color: #19191a;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.main-block {
+    margin-top: 60px;
+    padding-top: 65px;
+    margin-bottom: 65px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.logo {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.pres {
+    margin-top: 10px;
+}
+
+.main-title {
+    /* color: white; */
+    margin-bottom: -20px;
+    font-family: 'Cormorant Bold';
+    font-size: 120px;
+}
+
+.description {
+    /* color: white; */
+    margin-bottom: 25px;
+    font-family: 'Fox Grotesque Pro';
+    font-size: 30px;
+}
+
+.numbers {
+    text-align: left;
+    font-size: 170px;
+    font-family: 'Cormorant Bold';
+}
+
+.numbers-desc {
+    margin-left: 10px;
+    margin-right: 17px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    border-left: 2px solid #ffa000;
+    font-size: 22px;
+    font-family: 'Fox Grotesque Pro';
+    text-align: left;
+}
+
+
+
+#move-left {
+    margin-left: 70px;
+}
+
+.find {
+    font-family: 'Fox Grotesque Pro';
+    font-size: 16px;
+    color: #ffa000;
+}
+
+.button-book {
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: 'Fox Grotesque Pro';
+    background-color: #ffa000;
+    padding: 10px 70px;
+    color: black;
+    border: none;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.button-navi {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 15px;
+    margin-left: 10px;
+    font-family: 'Fox Grotesque Pro';
+    background-color: #ffa000;
+    text-align: center;
+    border: none;
+    border-radius: 40px;
+    color: black;
+}
+
+.find a {
+    transition: all 0.3s ease;
+}
+
+.find a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.move-button a.button-navi {
+    transition: all 0.3s ease;
+}
+
+
+.move-button a.button-navi:hover {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+
+.cont-but {
+    margin-bottom: 20px;
+}
+
+.cont-but a.button-book {
+    transition: all 0.3s ease;
+}
+
+.cont-but a.button-book:hover {
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
